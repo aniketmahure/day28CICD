@@ -7,6 +7,6 @@ import org.springframework.web.bind.annotation.RestController;
 public class controller {
     @GetMapping("/message")
     public String getMessage(){
-        return "Hello World";
+        return "Welcome to Sample Spring Boot Application After a new Makeover with new Commit";
     }
 }
